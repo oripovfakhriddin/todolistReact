@@ -1,0 +1,25 @@
+.card__title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card__box{
+  border: 2px dashed red;
+  max-width: 640px;
+  margin-bottom: 10px;
+}
+
+.button__card{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+.button__card + .button__card {
+  margin-left: 20px;
+}
